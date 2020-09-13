@@ -1,0 +1,566 @@
+fileFormatVersion: 2
+guid: 6a85296c4fb643f48a8b02859e3df4ea
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8205692590155663716
+    second: BloodFlower_0
+  - first:
+      213: -6596141583564070266
+    second: BloodFlower_1
+  - first:
+      213: -265463177352498156
+    second: BloodFlower_2
+  - first:
+      213: -7092700342022367926
+    second: BloodFlower_3
+  - first:
+      213: 6410156274398009850
+    second: BloodFlower_4
+  - first:
+      213: -346876673750315659
+    second: BloodFlower_5
+  - first:
+      213: 3950696579374554854
+    second: BloodFlower_6
+  - first:
+      213: 388957255851956503
+    second: BloodFlower_7
+  - first:
+      213: 8546191990042531925
+    second: BloodFlower_8
+  - first:
+      213: -546109373893152312
+    second: BloodFlower_9
+  - first:
+      213: -7778052181301404701
+    second: BloodFlower_10
+  - first:
+      213: -3497610392236976051
+    second: BloodFlower_11
+  - first:
+      213: 3901148371552188594
+    second: BloodFlower_12
+  - first:
+      213: -4660885445346016230
+    second: BloodFlower_13
+  - first:
+      213: -7895741839190100813
+    second: BloodFlower_14
+  - first:
+      213: 8172604500783802640
+    second: BloodFlower_15
+  - first:
+      213: -1403524580514280720
+    second: BloodFlower_16
+  - first:
+      213: -6602679181510293927
+    second: BloodFlower_17
+  - first:
+      213: 7560725270030684840
+    second: BloodFlower_18
+  - first:
+      213: -2930814759504143417
+    second: BloodFlower_19
+  - first:
+      213: -3206923628775897140
+    second: BloodFlower_20
+  - first:
+      213: -5012599521648047596
+    second: BloodFlower_21
+  - first:
+      213: -6289565183769460204
+    second: BloodFlower_22
+  - first:
+      213: 8410690142065907602
+    second: BloodFlower_23
+  - first:
+      213: -7636945124717682886
+    second: BloodFlower_24
+  - first:
+      213: -4895827636442116810
+    second: BloodFlower_25
+  - first:
+      213: -6961590426162839264
+    second: BloodFlower_26
+  - first:
+      213: -3697111099889406407
+    second: BloodFlower_27
+  - first:
+      213: 2724918846509239609
+    second: BloodFlower_28
+  - first:
+      213: 1456334793238413161
+    second: BloodFlower_29
+  - first:
+      213: 6616704894327414290
+    second: BloodFlower_30
+  - first:
+      213: 558350226127900211
+    second: BloodFlower_31
+  - first:
+      213: -5250979785709296469
+    second: BloodFlower_32
+  - first:
+      213: 3595431476608144301
+    second: BloodFlower_33
+  - first:
+      213: 6680271051787160966
+    second: BloodFlower_34
+  - first:
+      213: 8071869005431875549
+    second: BloodFlower_35
+  - first:
+      213: 9194075421473415361
+    second: BloodFlower_36
+  - first:
+      213: -3361772785294287756
+    second: BloodFlower_37
+  - first:
+      213: -1974529295471346230
+    second: BloodFlower_38
+  - first:
+      213: -1164952097755865127
+    second: BloodFlower_39
+  - first:
+      213: -1492148860268266747
+    second: BloodFlower_40
+  - first:
+      213: 5756377252392852562
+    second: BloodFlower_41
+  - first:
+      213: -4745208487771360592
+    second: BloodFlower_42
+  - first:
+      213: 8111087263260884052
+    second: BloodFlower_43
+  - first:
+      213: -2197205118331491746
+    second: BloodFlower_44
+  - first:
+      213: -3751873322164395948
+    second: BloodFlower_45
+  - first:
+      213: 2065283723137120365
+    second: BloodFlower_46
+  - first:
+      213: 6394069875084406678
+    second: BloodFlower_47
+  - first:
+      213: 2394282680696119535
+    second: BloodFlower_48
+  - first:
+      213: 3986640479130247666
+    second: BloodFlower_49
+  - first:
+      213: 254405687219761821
+    second: BloodFlower_50
+  - first:
+      213: 4748238421444812966
+    second: BloodFlower_51
+  - first:
+      213: -6722605478957612676
+    second: BloodFlower_52
+  - first:
+      213: 4934039953767703767
+    second: BloodFlower_53
+  - first:
+      213: -1142926598629592657
+    second: BloodFlower_54
+  - first:
+      213: 7581174885152977851
+    second: BloodFlower_55
+  - first:
+      213: 2129469181722642424
+    second: BloodFlower_56
+  - first:
+      213: -2616748935221380297
+    second: BloodFlower_57
+  - first:
+      213: 1679477975446529504
+    second: BloodFlower_58
+  - first:
+      213: 2554554010780236588
+    second: BloodFlower_59
+  - first:
+      213: 2715912186104749354
+    second: BloodFlower_60
+  - first:
+      213: -2277487863782676258
+    second: BloodFlower_61
+  - first:
+      213: 6095643203099150702
+    second: BloodFlower_62
+  - first:
+      213: -869198031940660280
+    second: BloodFlower_63
+  - first:
+      213: 3749211756857135586
+    second: BloodFlower_64
+  - first:
+      213: 1953035210609657299
+    second: BloodFlower_65
+  - first:
+      213: 8812951235375209816
+    second: BloodFlower_66
+  - first:
+      213: 3863396262576309191
+    second: BloodFlower_67
+  - first:
+      213: -4850181410342548696
+    second: BloodFlower_68
+  - first:
+      213: -1357373355811045488
+    second: BloodFlower_69
+  - first:
+      213: 3348823982654209679
+    second: BloodFlower_70
+  - first:
+      213: 740336214549087856
+    second: BloodFlower_71
+  - first:
+      213: -5798358549044032751
+    second: BloodFlower_72
+  - first:
+      213: -5142989473849046814
+    second: BloodFlower_73
+  - first:
+      213: 5593735669837574533
+    second: BloodFlower_74
+  - first:
+      213: -1591529959906467496
+    second: BloodFlower_75
+  - first:
+      213: -6387421038264996637
+    second: BloodFlower_76
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BloodFlower_0
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 758
+        width: 446
+        height: 342
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46988446fe970e170800000000000000
+      internalID: 8205692590155663716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodFlower_1
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 731
+        width: 419
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6822b777d2cc574a0800000000000000
+      internalID: -6596141583564070266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodFlower_2
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 663
+        width: 511
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41435fc85a2e05cf0800000000000000
+      internalID: -265463177352498156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodFlower_3
+      rect:
+        serializedVersion: 2
+        x: 1489
+        y: 659
+        width: 483
+        height: 473
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a45177f1e9aa19d90800000000000000
+      internalID: -7092700342022367926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodFlower_4
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 310
+        width: 698
+        height: 402
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af91c3a4b2375f850800000000000000
+      internalID: 6410156274398009850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodFlower_5
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 298
+        width: 361
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57d4e38c085af2bf0800000000000000
+      internalID: -346876673750315659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodFlower_6
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 304
+        width: 378
+        height: 328
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ee98f47b91b3d630800000000000000
+      internalID: 3950696579374554854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodFlower_39
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 248
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9df5ae04d3245dfe0800000000000000
+      internalID: -1164952097755865127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodFlower_58
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 132
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e525960254be4710800000000000000
+      internalID: 1679477975446529504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodFlower_75
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 36
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 851226a0fefb9e9e0800000000000000
+      internalID: -1591529959906467496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodFlower_7
+      rect:
+        serializedVersion: 2
+        x: 1688
+        y: 411
+        width: 17
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 719dddb309ad56500800000000000000
+      internalID: 388957255851956503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
