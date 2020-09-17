@@ -64,9 +64,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\script\CharacterScript.cs" />
-    <Compile Include="Assets\script\Controller\ButtonClick.cs" />
     <Compile Include="Assets\script\Controller\ControllerEvent.cs" />
     <Compile Include="Assets\script\Controller\MessageDialog.cs" />
+    <Compile Include="Assets\script\Controller\SceneControllor.cs" />
     <Compile Include="Assets\script\GardEvent.cs" />
     <Compile Include="Assets\script\Project\Consts.cs" />
     <Compile Include="Assets\script\UIEvents\ShowList.cs" />

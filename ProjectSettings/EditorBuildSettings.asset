@@ -6,9 +6,18 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/initialScene.unity
+    path: Assets/Scenes/InitialScene.unity
     guid: 3c320a9fc70a4d047ac19597bb3c0fcc
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
+    path: Assets/Scenes/MainScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Pond.unity
+    guid: e42385ae7cd1f1b41b1b4d8f015898f9
+  - enabled: 1
+    path: Assets/Scenes/PrivateSchool.unity
+    guid: 083f3c566804ab540a7f63339027fd64
+  - enabled: 1
+    path: Assets/Scenes/BotanicalGarden.unity
+    guid: 24ac629de9ed9d94fa752c9a2e320e7c
   m_configObjects: {}
