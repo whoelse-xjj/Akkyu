@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 6216239464689427478}
   - component: {fileID: 6216239464689427473}
   - component: {fileID: 6216239464689427472}
-  - component: {fileID: 6216239464689427475}
   - component: {fileID: 6216239464689427501}
   - component: {fileID: 7813307059622106424}
+  - component: {fileID: 6216239464689427475}
   m_Layer: 0
   m_Name: Charactor1
   m_TagString: Untagged
@@ -104,18 +104,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &6216239464689427475
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6216239464689427503}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fabe3ed1afd697e4c8c06e14241b8e08, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!50 &6216239464689427501
 Rigidbody2D:
   serializedVersion: 4
@@ -153,3 +141,16 @@ CircleCollider2D:
   m_Offset: {x: 0.011024296, y: 0}
   serializedVersion: 2
   m_Radius: 0.29824865
+--- !u!114 &6216239464689427475
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6216239464689427503}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fabe3ed1afd697e4c8c06e14241b8e08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inventory: {fileID: 11400000, guid: c8b6076d1b874a942802739e7317c775, type: 2}

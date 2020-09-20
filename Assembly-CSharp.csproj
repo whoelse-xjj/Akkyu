@@ -63,16 +63,20 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\script\Common\Consts.cs" />
-    <Compile Include="Assets\script\Common\SceneManagerScript.cs" />
-    <Compile Include="Assets\script\MainScene\CharacterScript.cs" />
-    <Compile Include="Assets\script\MainScene\GardEvent.cs" />
-    <Compile Include="Assets\script\UIElement\MessageDialog.cs" />
-    <Compile Include="Assets\script\UIElement\PrintScenceScript.cs" />
-    <Compile Include="Assets\script\UIElement\ShowList.cs" />
-    <Compile Include="Assets\script\UIElement\Store.cs" />
-    <Compile Include="Assets\script\UIElement\WorldEvent.cs" />
-    <Compile Include="Assets\script\UIElement\WorldEvent2.cs" />
+    <Compile Include="Assets\scripts\Common\Consts.cs" />
+    <Compile Include="Assets\scripts\Common\Inventory.cs" />
+    <Compile Include="Assets\scripts\Common\MessageDialog.cs" />
+    <Compile Include="Assets\scripts\Common\SceneManagerScript.cs" />
+    <Compile Include="Assets\scripts\MainScene\CharacterScript.cs" />
+    <Compile Include="Assets\scripts\MainScene\CreateCharactorScript.cs" />
+    <Compile Include="Assets\scripts\MainScene\DataManager.cs" />
+    <Compile Include="Assets\scripts\MainScene\GardenScript.cs" />
+    <Compile Include="Assets\scripts\UIElement\InfomationDisplay.cs" />
+    <Compile Include="Assets\scripts\UIElement\PrintScenceScript.cs" />
+    <Compile Include="Assets\scripts\UIElement\ShopScript.cs" />
+    <Compile Include="Assets\scripts\UIElement\ShoppingScript.cs" />
+    <Compile Include="Assets\scripts\UIElement\TableEventScript.cs" />
+    <Compile Include="Assets\scripts\UIElement\WarehouseScript.cs" />
     <Reference Include="UnityEngine">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
