@@ -63,16 +63,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\script\CharacterScript.cs" />
-    <Compile Include="Assets\script\Controller\ControllerEvent.cs" />
-    <Compile Include="Assets\script\Controller\MessageDialog.cs" />
-    <Compile Include="Assets\script\Controller\SceneControllor.cs" />
-    <Compile Include="Assets\script\GardEvent.cs" />
-    <Compile Include="Assets\script\Project\Consts.cs" />
-    <Compile Include="Assets\script\UIEvents\ShowList.cs" />
-    <Compile Include="Assets\script\UIEvents\Store.cs" />
-    <Compile Include="Assets\script\UIEvents\WorldEvent.cs" />
-    <Compile Include="Assets\script\UIEvents\WorldEvent2.cs" />
+    <Compile Include="Assets\script\Common\Consts.cs" />
+    <Compile Include="Assets\script\Common\SceneManagerScript.cs" />
+    <Compile Include="Assets\script\MainScene\CharacterScript.cs" />
+    <Compile Include="Assets\script\MainScene\GardEvent.cs" />
+    <Compile Include="Assets\script\UIElement\MessageDialog.cs" />
+    <Compile Include="Assets\script\UIElement\PrintScenceScript.cs" />
+    <Compile Include="Assets\script\UIElement\ShowList.cs" />
+    <Compile Include="Assets\script\UIElement\Store.cs" />
+    <Compile Include="Assets\script\UIElement\WorldEvent.cs" />
+    <Compile Include="Assets\script\UIElement\WorldEvent2.cs" />
     <Reference Include="UnityEngine">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
