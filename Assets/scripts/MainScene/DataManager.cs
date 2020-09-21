@@ -8,15 +8,11 @@ public class DataManager : MonoBehaviour
 {
     public Inventory Inventory;
 
-    private void Start()
-    {
+    private void Start() =>
         DataSave();
-    }
 
-    private void OnDestroy()
-    {
+    private void OnDestroy() =>
         DataLoad();
-    }
 
     private void DataSave()
     {
