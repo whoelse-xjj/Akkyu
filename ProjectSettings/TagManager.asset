@@ -45,7 +45,7 @@ TagManager:
   - name: Base
     uniqueID: 1581534489
     locked: 0
-  - name: Furnishing
+  - name: OnBase
     uniqueID: 3498161429
     locked: 0
   - name: Tree

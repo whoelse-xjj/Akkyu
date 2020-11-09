@@ -5,20 +5,33 @@ using UnityEngine.UI;
 
 public class CreateCharactorScript : MonoBehaviour
 {
-    public GameObject CharactorOriginal;
+    public Transform Door;
+    public GameObject OldCharacter;
     public RuntimeAnimatorController AnimationController;
 
-    public MessageDialog dialog;
+    [Header("Character Parameter")]
+    public List<Transform> TargetTransformList;
+    //public MessageDialog dialog;
 
-    public void CreateNewCharactor(GameObject parent)
+    public void CreateNewCharactor()
     {
-        GameObject Charactor = Instantiate(CharactorOriginal, parent.transform);
-        Charactor.transform.position += Random.insideUnitSphere * 0.1F;
 
-        CharacterScript script = Charactor.GetComponent<CharacterScript>();
-        script.dialog = dialog;
+        //CharacterScript oldCharactorScript = OldCharacter.GetComponent<CharacterScript>();
 
-        Animator ar = Charactor.GetComponent<Animator>();
-        ar.runtimeAnimatorController = AnimationController;
+        GameObject newCharactor = Instantiate(OldCharacter);
+        Animator animator = newCharactor.GetComponent<Animator>();
+        CharacterScript script = newCharactor.GetComponent<CharacterScript>();
+        animator.runtimeAnimatorController = AnimationController;
+        //移动终点
+        script.TargetObjectList = TargetTransformList;
+        script.Door = Door;
+        //出生点
+        newCharactor.transform.position = Door.position;
+
+        //newCharactor.transform.position += Random.insideUnitSphere * 0.1F;
+
+        //CharacterScript script = Charactor.GetComponent<CharacterScript>();
+        //script.dialog = dialog;
+
     }
 }
