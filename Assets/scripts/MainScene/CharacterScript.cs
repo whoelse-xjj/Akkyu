@@ -15,6 +15,7 @@ public class CharacterScript : MonoBehaviour
     private SpriteRenderer sr;
 
     private float MoveClock;
+    public List<RuntimeAnimatorController> Controllers;
     public List<Transform> TargetObjectList;
     public Transform Door;
     private Transform TargetTransform;
@@ -33,6 +34,9 @@ public class CharacterScript : MonoBehaviour
     private long Count2 = 0L;
     private static long Count0 = 0L;
 
+    public string Name;
+    public static long Amount;
+
     #endregion
 
     // Start is called before the first frame update
@@ -43,7 +47,13 @@ public class CharacterScript : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         sr = GetComponent<SpriteRenderer>();
 
+        RuntimeAnimatorController controller = Controllers[Random.Range(0, Controllers.Count)];
+        Name = controller.name;
+        ar.runtimeAnimatorController = controller;
+        Amount++;
+
         TargetTransform = TargetObjectList[Random.Range(0, TargetObjectList.Count)];
+        ar.SetBool("Move", true);
     }
 
     // Update is called once per frame
@@ -71,16 +81,19 @@ public class CharacterScript : MonoBehaviour
         else if (MoveClock > 0F)
         {
             MoveClock -= Time.deltaTime;
-            MessageBox = $" Loop {Count1++} creat {Count2} sum {Count0}";
             if (Random.Range(0F, 100F) < 0.5F)
             {
                 GameObject money = Instantiate(Money);
-                money.transform.position = transform.position;
-                Count2++;
-                Count0++;
+
+                Vector2 circle = Random.insideUnitCircle;
+
+                money.transform.position = transform.position + new Vector3(circle.x * 0.2F, circle.y * 0.1F);
+                SpriteRenderer renderer = money.GetComponent<SpriteRenderer>();
+                renderer.sortingOrder = WorldControllor.BottomOrder;
+
             }
         }
-        //选择离开
+        //开始移动
         else if (Favorability > 0)
         {
             Transform newObject  = TargetObjectList[Random.Range(0, TargetObjectList.Count)];

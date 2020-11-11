@@ -12,8 +12,11 @@ public class DataManager : MonoBehaviour
     private void Start() =>
         DataLoad();
 
-    private void OnDestroy() =>
+    private void OnDestroy()
+    {
+        Inventory.Money += MoneyScript.PickUpAmount;
         DataSave();
+    }
 
     private void DataLoad()
     {
