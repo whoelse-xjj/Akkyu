@@ -71,6 +71,7 @@
     <Compile Include="Assets\scripts\MainScene\CreateCharactorScript.cs" />
     <Compile Include="Assets\scripts\MainScene\DataManager.cs" />
     <Compile Include="Assets\scripts\MainScene\GardenScript.cs" />
+    <Compile Include="Assets\scripts\MainScene\MoneyScript.cs" />
     <Compile Include="Assets\scripts\MainScene\WorldControllor.cs" />
     <Compile Include="Assets\scripts\UIElement\InfomationDisplay.cs" />
     <Compile Include="Assets\scripts\UIElement\PrintScenceScript.cs" />

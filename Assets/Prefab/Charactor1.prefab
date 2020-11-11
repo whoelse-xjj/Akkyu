@@ -155,3 +155,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TargetObjectList: []
   Door: {fileID: 0}
+  Money: {fileID: 800531116128733267, guid: 37ee4579d36c5e4419386c4fe03f35c7, type: 3}

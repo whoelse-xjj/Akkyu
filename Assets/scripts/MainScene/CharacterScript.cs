@@ -20,10 +20,18 @@ public class CharacterScript : MonoBehaviour
     private Transform TargetTransform;
 
     private int Favorability = 20;
+    public GameObject Money;
 
     private const float MoveTime = 3F;
     private const float DistanceDelta = 0.02F;
     //private float CreatMoneyClock = 3F;
+
+    [Header("Debug")]
+    [TextArea]
+    public string MessageBox = string.Empty;
+    private long Count1 = 0L;
+    private long Count2 = 0L;
+    private static long Count0 = 0L;
 
     #endregion
 
@@ -63,6 +71,14 @@ public class CharacterScript : MonoBehaviour
         else if (MoveClock > 0F)
         {
             MoveClock -= Time.deltaTime;
+            MessageBox = $" Loop {Count1++} creat {Count2} sum {Count0}";
+            if (Random.Range(0F, 100F) < 0.5F)
+            {
+                GameObject money = Instantiate(Money);
+                money.transform.position = transform.position;
+                Count2++;
+                Count0++;
+            }
         }
         //选择离开
         else if (Favorability > 0)
