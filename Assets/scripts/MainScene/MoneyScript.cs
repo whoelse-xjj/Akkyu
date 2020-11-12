@@ -17,6 +17,8 @@ public class MoneyScript : MonoBehaviour
     void Start()
     {
         CreateAmount++;
+        SpriteRenderer sr = GetComponent<SpriteRenderer>();
+        sr.sortingOrder = WorldControllor.BottomSorting;
     }
 
     // Update is called once per frame

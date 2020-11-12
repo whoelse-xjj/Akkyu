@@ -175,7 +175,7 @@ TextureImporter:
     second: Stuff01_56
   - first:
       213: -820375572723168842
-    second: Stuff01_57
+    second: StuffForm3
   - first:
       213: 3998391197858228155
     second: Stuff01_58
@@ -214,13 +214,13 @@ TextureImporter:
     second: Stuff01_69
   - first:
       213: -4485750245106795455
-    second: Stuff01_70
+    second: StuffForm4
   - first:
       213: 8612002267710085781
     second: Stuff01_71
   - first:
       213: 4640041314997680890
-    second: Stuff01_72
+    second: Stuff0172
   - first:
       213: -5795775564354420925
     second: Stuff01_73
@@ -235,13 +235,13 @@ TextureImporter:
     second: Stuff01_76
   - first:
       213: -4626425904993765464
-    second: Stuff01_77
+    second: StuffForm1
   - first:
       213: 986923852492069376
     second: Stuff01_78
   - first:
       213: 2342776626559104907
-    second: Stuff01_79
+    second: StuffForm2
   - first:
       213: -1742293962742874221
     second: Stuff01_80
@@ -1563,7 +1563,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stuff01_57
+      name: StuffForm3
       rect:
         serializedVersion: 2
         x: 687
@@ -1738,8 +1738,8 @@ TextureImporter:
         y: 291
         width: 28
         height: 62
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.49999127, y: 0.066970825}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1759,8 +1759,8 @@ TextureImporter:
         y: 291
         width: 28
         height: 62
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.065563075}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1836,15 +1836,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stuff01_70
+      name: StuffForm4
       rect:
         serializedVersion: 2
         x: 438
         y: 160
         width: 48
         height: 122
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.50000066, y: 0.04688813}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1878,15 +1878,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stuff01_72
+      name: Stuff0172
       rect:
         serializedVersion: 2
-        x: 550
+        x: 551
         y: 160
         width: 44
         height: 87
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.4999986, y: 0.066825606}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1983,15 +1983,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stuff01_77
+      name: StuffForm1
       rect:
         serializedVersion: 2
         x: 817
         y: 229
         width: 30
         height: 45
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.51218873, y: 0.09372186}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2025,15 +2025,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stuff01_79
+      name: StuffForm2
       rect:
         serializedVersion: 2
         x: 888
         y: 224
         width: 28
         height: 50
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5130593, y: 0.0685321}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2347,8 +2347,8 @@ TextureImporter:
         y: 68
         width: 88
         height: 48
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.12678798}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

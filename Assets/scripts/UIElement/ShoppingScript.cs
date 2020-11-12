@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class ShoppingScript : MonoBehaviour
 {
-    public Inventory inventory;
+    public DataRecorder inventory;
 
     public MessageDialog dialog;
 

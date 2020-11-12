@@ -64,12 +64,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\scripts\Common\Consts.cs" />
-    <Compile Include="Assets\scripts\Common\Inventory.cs" />
+    <Compile Include="Assets\scripts\Common\DataRecorder.cs" />
     <Compile Include="Assets\scripts\Common\MessageDialog.cs" />
     <Compile Include="Assets\scripts\Common\SceneManagerScript.cs" />
     <Compile Include="Assets\scripts\MainScene\CharacterScript.cs" />
     <Compile Include="Assets\scripts\MainScene\CreateCharactorScript.cs" />
     <Compile Include="Assets\scripts\MainScene\DataManager.cs" />
+    <Compile Include="Assets\scripts\MainScene\FurnitureScript.cs" />
     <Compile Include="Assets\scripts\MainScene\GardenScript.cs" />
     <Compile Include="Assets\scripts\MainScene\MoneyScript.cs" />
     <Compile Include="Assets\scripts\MainScene\WorldControllor.cs" />

@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class InfomationDisplay : MonoBehaviour
 {
-    public Inventory inventory;
+    public DataRecorder inventory;
 
     public Text Heart;
     public Text Money;

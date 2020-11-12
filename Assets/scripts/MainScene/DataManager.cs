@@ -7,7 +7,7 @@ using System.Net;
 
 public class DataManager : MonoBehaviour
 {
-    public Inventory Inventory;
+    public DataRecorder Inventory;
 
     private void Start() =>
         DataLoad();
@@ -20,14 +20,6 @@ public class DataManager : MonoBehaviour
 
     private void DataLoad()
     {
-        //C:/ Users / xjj12 / AppData / LocalLow / DefaultCompany / Fairy Ranch of Akyuu
-        //           var path1 = Application.persistentDataPath;
-        //C:/ Users / xjj12 / Desktop / Unity2007 / Akyuu / Assets
-        //    var path2 = Application.dataPath;
-        //C: \Users\xjj12\Desktop\Unity2007\Akyuu\
-        //    var path3 = new FileInfo("./").FullName;
-        //    Debug.Log($"{path1}, {path2}, {path3}");
-
         string path = Application.persistentDataPath + "/GameData/Inventory.txt";
         BinaryFormatter formatter = new BinaryFormatter();
         if (File.Exists(path))

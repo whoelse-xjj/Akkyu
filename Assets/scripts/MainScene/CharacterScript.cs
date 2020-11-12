@@ -30,9 +30,6 @@ public class CharacterScript : MonoBehaviour
     [Header("Debug")]
     [TextArea]
     public string MessageBox = string.Empty;
-    private long Count1 = 0L;
-    private long Count2 = 0L;
-    private static long Count0 = 0L;
 
     public string Name;
     public static long Amount;
@@ -84,13 +81,8 @@ public class CharacterScript : MonoBehaviour
             if (Random.Range(0F, 100F) < 0.5F)
             {
                 GameObject money = Instantiate(Money);
-
                 Vector2 circle = Random.insideUnitCircle;
-
                 money.transform.position = transform.position + new Vector3(circle.x * 0.2F, circle.y * 0.1F);
-                SpriteRenderer renderer = money.GetComponent<SpriteRenderer>();
-                renderer.sortingOrder = WorldControllor.BottomOrder;
-
             }
         }
         //开始移动
